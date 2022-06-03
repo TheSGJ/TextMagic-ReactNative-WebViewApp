@@ -2,14 +2,14 @@
   "expo": {
     "name": "TextMagic",
     "slug": "TextMagic",
-    "version": "1.0.0",
+    "version": "1.1.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#87CEEB"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,12 +18,16 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.thesgj.textmagic",
+      "buildNumber": "1.1.2",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.thesgj.textmagic",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#87CEEB"
       }
     },
     "web": {
